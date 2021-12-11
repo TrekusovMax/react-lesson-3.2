@@ -21,7 +21,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className="container my-2">
       <SearchStatus length={users.length} />
 
       {users.length > 0 && (
@@ -31,7 +31,7 @@ function App() {
           handleToggleBookMark={handleToggleBookMark}
         />
       )}
-    </>
+    </div>
   )
 }
 
